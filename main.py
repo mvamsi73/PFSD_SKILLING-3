@@ -56,6 +56,7 @@ while(True):
         elif (ch == 2):
             mydb.delete("patient",int(input("Enter the ID of the patient to delete from the database:")))
         else:
-            mydb.delete("medicine",int(input("Enter the ID of the medicine to delete from the database:")))
+            mydb.delete("medicine.",int(input("Enter the ID of the medicine to delete from the database:")))
     else:
         break
+
